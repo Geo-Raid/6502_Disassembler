@@ -1,0 +1,14 @@
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\bin\Debug\net10.0\6502-Disassmbler.exe
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\bin\Debug\net10.0\6502-Disassmbler.deps.json
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\bin\Debug\net10.0\6502-Disassmbler.runtimeconfig.json
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\bin\Debug\net10.0\6502-Disassmbler.dll
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\bin\Debug\net10.0\6502-Disassmbler.pdb
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\6502-Disassmbler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\6502-Disassmbler.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\6502-Disassmbler.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\6502-Disassmbler.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\6502-Disassmbler.dll
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\refint\6502-Disassmbler.dll
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\6502-Disassmbler.pdb
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\6502-Disassmbler.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive - Resilience Multi Academy Trust\Projects\6502-Programs\Disassembler\6502-Disassmbler\obj\Debug\net10.0\ref\6502-Disassmbler.dll
