@@ -113,8 +113,9 @@ namespace _6502_Disassmbler {
                     return $"(${Operand.ToString("X2")}),Y";
                 case "Relative":
                     return $"${Operand.ToString("X4")}";
+                default:
+                    throw new Exception("Invalid Addressing Mode in FormatOperand()!");
             }
-            throw new Exception("Invalid Addressing Mode in FormatOperand()!");
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("6502-Disassmbler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5ca088fcba3fceb0193dffb654a45394eae399c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bde94e2ba4ec570ba21b2bc43b5151c28d1f844")]
 [assembly: System.Reflection.AssemblyProductAttribute("6502-Disassmbler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("6502-Disassmbler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
