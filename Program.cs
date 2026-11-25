@@ -1,8 +1,6 @@
 ﻿#pragma warning disable IDE0090
 #pragma warning disable IDE0028
 
-using System.Diagnostics.CodeAnalysis;
-
 namespace _6502_Disassmbler {
     static class Program {
         static void Main() {
@@ -50,6 +48,7 @@ namespace _6502_Disassmbler {
                         break;
 
                     case "4":
+                        ExportASM(ExportPath, ref FileBinary, ref instructionSet);
                         break;
                     
                     case "5":
@@ -60,9 +59,23 @@ namespace _6502_Disassmbler {
             }
         }
 
-        static void ExportASM(string ExportPath, ref List<byte> FileBinary) {
+        static void ExportASM(string ExportPath, ref List<byte> FileBinary, ref InstructionSet instructionSet) {
             ushort ResetVector = GetResetVector(ref FileBinary);
 
+            for (int i = 0; i < FileBinary.Count; i++) {
+                string line = "";
+                line += instructionSet.Lookup[FileBinary[i]].Mnemonic;
+
+                if (instructionSet.Lookup[FileBinary[i]].Length == 2) {
+                    line += " " + FormatOperand((ushort)FileBinary[i + 1], instructionSet.Lookup[FileBinary[i]].Mode.ToString());
+                } else if (instructionSet.Lookup[FileBinary[i]].Length == 3) {
+                    line += " " + FormatOperand((ushort)(FileBinary[i + 2] | FileBinary[i + 1] << 8), instructionSet.Lookup[FileBinary[i]].Mode.ToString());
+                }
+
+                i += instructionSet.Lookup[FileBinary[i]].Length - 1;
+                Console.WriteLine(line);
+                line = "";
+            }
         }
 
         static ushort GetResetVector(ref List<byte> FileBinary) {
